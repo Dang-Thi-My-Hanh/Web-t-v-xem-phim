@@ -5,119 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c184c2-1322-43e1-955c-a576953dcb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cineme_Booking.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-t-v-xem-phim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/destination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tour.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/css/brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/css/solid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/js/brands.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/js/conflict-detection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/js/conflict-detection.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/js/fontawesome.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/js/solid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/destination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/destination_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tour.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/review.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/passwordManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/movies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/rating.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/reservations.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/LapTrinhWeb/Cineme_Booking&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/LapTrinhWeb/Cineme_Booking/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\LapTrinhWeb\Cineme_Booking" />
@@ -179,7 +81,7 @@
       <workItem from="1736656707663" duration="926000" />
       <workItem from="1736658723084" duration="623000" />
       <workItem from="1736659369666" duration="369000" />
-      <workItem from="1736685465269" duration="1495000" />
+      <workItem from="1736685465269" duration="1817000" />
     </task>
     <servers />
   </component>
