@@ -1,0 +1,317 @@
+ 
+ html,body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ :root {
+    --blue: #2a2185;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+  }
+ .details-user {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+   
+    grid-gap: 30px;
+
+  }
+  
+  .details-user .recentOrders {
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+ 
+    margin-left: 30px;
+  }
+  
+  .details-user .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+
+  
+  .details-user table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 133px;
+  }
+  
+  .details-user table th,
+  td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .details-user table thead td {
+    font-weight: 600px;
+    background-color: var(--gray); 
+    color: var(--white);
+    font-weight: bolder;
+    background: linear-gradient(to right, #4f3131, #15283e);
+      
+  }
+  
+  .details-user .recentOrders table tr {
+    color: var(--black1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-user .recentOrders table tr:last-child {
+    border-bottom: none;
+  }
+  
+  .details-user .recentOrders table tbody tr:hover {
+    background: linear-gradient(to right, #4f3131, #15283e);
+    color: var(--white);
+  }
+  
+  .details-user .recentOrders table tr td {
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .details-user .recentOrders table tr td:nth-child(3) {
+    text-align: center;
+  }
+
+ .list-account-content-button button{
+     padding: 8px;
+     font-size: 11px;
+     float: right;
+     border-radius: 5px;
+     background-color: #4f3131;
+     text-decoration: none;
+     color: var(--gray);
+     font-weight: bold;
+ }
+ .list-account-content-button a:hover {
+     background: linear-gradient(to right, #4f3131, #15283e);
+     color: var(--white);
+ }
+
+ /* =================== Modal thêm tài khoản ===================*/
+ #addAccount .modal-content h3 {
+     font-size: 1.5rem;
+     font-weight: bold;
+     text-align: center;
+     background: none;
+     color: white;
+     margin-bottom: 20px;
+     letter-spacing: 1px;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+     padding-bottom: 10px;
+ }
+
+ #addAccount .modal-content {
+     background: linear-gradient(to left, #4f3131, #15283e);
+     margin: 7% auto;
+     padding: 20px;
+     border-color: #f88e62;
+     width: 80%;
+     max-width: 400px;
+     border-radius: 8px;
+     margin-left: 45%;
+ }
+
+ /* Form Styling */
+ #addAccountForm {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+ }
+
+ #addAccountForm label {
+     font-size: 13px;
+     font-weight: bold;
+     color: #f7d774;
+ }
+
+ #addAccountForm input {
+     background: rgba(255, 255, 255, 0.1);
+     border: 2px solid #f7d774;
+     border-radius: 8px;
+     padding: 7px;
+     color: #ffffff;
+     font-size: 10px;
+     outline: none;
+     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ #addAccountForm select {
+     padding: 8px;
+     border-radius: 5px;
+ }
+
+ #addAccountForm input:focus,
+ #addAccountForm select:focus {
+     border-color: #f88e62;
+     box-shadow: 0 0 8px #f88e62;
+ }
+
+ #addAccountForm input[type="file"] {
+     border: none;
+     background: none;
+     color: #f7d774;
+     cursor: pointer;
+     font-size: 15px;
+     padding: 10px;
+     border-radius: 5px;
+ }
+
+ /* Buttons */
+ #addAccountForm button {
+     background: #f88e62;
+     color: #ffffff;
+     border: none;
+     padding: 7px 12px;
+     border-radius: 8px;
+     font-size: 12px;
+     font-weight: bold;
+     cursor: pointer;
+     text-transform: uppercase;
+     transition: 0.3s ease, transform 0.3s ease;
+ }
+
+ #addAccountForm button:hover {
+     background: #e2704e;
+     transform: scale(1.05);
+ }
+
+ .close_modal {
+     background: #4f3131;
+     color: #ffffff;
+     border: 2px solid #ffffff;
+     margin-top: 10px;
+     padding: 10px;
+     border-radius: 8px;
+     font-size: 14px;
+     transition: 0.3s ease, color 0.3s ease;
+ }
+
+ .close_modal:hover {
+     background: #ffffff;
+     color: #4f3131;
+ }
+
+ #addAccount .modal-content button:hover{
+     transform: scale(1.1);
+ }
+  
+/* Nút hành động */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #15283e;
+  background: #ffec32;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.statusText{
+    padding: 2px;
+    border-radius: 5px;
+}
+.update-user{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.update-user button{
+    background-color: #202a3b;
+    color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    cursor: pointer;
+}
+/* Định dạng modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background: linear-gradient(to left, #4f3131, #15283e);
+  margin: 12% auto;
+  padding: 20px;
+  border-color: #f88e62;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-left: 45%;
+}
+.modal-content:hover {
+  transform: scale(1.02);
+}
+
+
+/* =============== Delete modal =========================== */
+#delete-modal .modal-content label {
+  color: #F5F5DC;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#delete-modal .modal-content h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFC857;
+  background: none;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 10px;
+}
+
+#delete-modal .modal-content .button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+
+#delete-modal .modal-content .button-container button:first-child {
+  margin-top: 15px;
+  background-color: #f88e62;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#delete-modal .modal-content .button-container button:last-child {
+  margin-top: 15px;
+  background-color: #f88e62;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#delete-modal .modal-content .button-container button:hover{
+  transform: scale(1.1);
+}

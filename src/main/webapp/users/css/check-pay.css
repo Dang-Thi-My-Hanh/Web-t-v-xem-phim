@@ -1,0 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section-content-1{
+    padding: 30px 0;
+}
+
+#section-content-1 .confirmation-container {
+    width: 84%;
+    gap: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 30px auto;
+    font-size: 15px;
+}
+
+.order-details {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.button-check{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1c293d ;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+}
+
+.button-check:hover{
+    background-color: #007bff;
+ 
+}
+
+.icon-check{
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+
+
+
+
+

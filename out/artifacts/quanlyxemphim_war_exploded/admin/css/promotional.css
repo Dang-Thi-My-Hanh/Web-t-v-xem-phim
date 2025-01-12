@@ -1,0 +1,296 @@
+/* Nút hành động */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #15283e;
+  background: #ffec32;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Định dạng modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  #delete-modal .modal-content {
+    background: linear-gradient(to left, #4f3131, #15283e);
+    margin: 15% auto;
+    padding: 20px;
+    border-color: #f88e62;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-left: 45%;
+  }
+  .modal-content:hover {
+    transform: scale(1.02);
+  }
+
+  /* ==================== Thêm ưu đãi==========================  */
+  .list-promotions-content-button button {
+    padding: 8px;
+    font-size: 11px;
+    float: right;
+    border-radius: 5px;
+    background-color: #4f3131;
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: bold;
+  }
+
+  .list-promotions-content-button a:hover {
+    background: linear-gradient(to right, #4f3131, #15283e);
+    color: var(--white);
+  }
+
+  /* =================== Modal thêm ưu dãi ===================*/
+  #addPromotionModal .modal-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+  }
+
+  #addPromotionModal .modal-content {
+    background: linear-gradient(to left, #4f3131, #15283e);
+    margin: 7% auto;
+    padding: 20px;
+    border-color: #f88e62;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-left: 45%;
+  }
+  
+  /* Form Styling */
+  #addPromotionForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  #addPromotionForm label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #f7d774;
+  }
+  
+  #addPromotionForm input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #f7d774;
+    border-radius: 8px;
+    padding: 7px;
+    color: #ffffff;
+    font-size: 10px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #addPromotionForm select {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  #addPromotionForm input:focus,
+  #addProductForm select:focus {
+    border-color: #f88e62;
+    box-shadow: 0 0 8px #f88e62;
+  }
+  
+  #addPromotionForm input[type="file"] {
+    border: none;
+    background: none;
+    color: #f7d774;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  #addPromotionForm button {
+    background: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease, transform 0.3s ease;
+  }
+  
+  #addPromotiontForm button:hover {
+    background: #e2704e;
+    transform: scale(1.05);
+  }
+  
+  .close_modal {
+    background: #4f3131;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s ease, color 0.3s ease;
+  }
+  
+  .close_modal:hover {
+    background: #ffffff;
+    color: #4f3131;
+  }
+
+  #addPromotionModal .modal-content button:hover{
+    transform: scale(1.1);
+  }
+
+  /* =============== Delete modal =========================== */
+#delete-modal .modal-content label {
+    color: #F5F5DC;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #delete-modal .modal-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFC857;
+    background: none;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+  }
+  
+  #delete-modal .modal-content .button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  #delete-modal .modal-content .button-container button:first-child {
+    margin-top: 15px;
+    background-color: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #delete-modal .modal-content .button-container button:last-child {
+    margin-top: 15px;
+    background-color: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #delete-modal .modal-content .button-container button:hover{
+    transform: scale(1.1);
+  }
+
+/*------------------------ Form Edit Information -----------------------------------------------*/
+/* Style cho Modal */
+.editPromotional {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#editInfoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#editInfoForm .mb-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#editInfoForm label {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Placeholder */
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Arial', sans-serif;
+}
+
+
+#editInfoForm input[type="datetime-local"],
+[type="number"],
+textarea {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.modal-footer {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.modal-footer button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.modal-footer .btn-secondary {
+  background: #6c757d;
+  color: white;
+  margin-right: 10px;
+}
+
+.modal-footer .btn-secondary:hover {
+  background: #5a6268;
+  transform: scale(1.05);
+}
+
+.modal-footer .btn-primary {
+  background: linear-gradient(135deg, #ff6b6b, #d43f3f);
+  color: white;
+}
+
+.modal-footer .btn-primary:hover {
+  background: linear-gradient(135deg, #d43f3f, #a93232);
+  transform: scale(1.05);
+}

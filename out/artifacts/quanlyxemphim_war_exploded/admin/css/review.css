@@ -1,0 +1,177 @@
+/* Tổng thể cho .content */
+:root {
+    --blue: #2a2185;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+  }
+ .review {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+   
+    grid-gap: 30px;
+
+  }
+  
+  .review .recentOrders {
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+ 
+    margin-left: 30px;
+  }
+  
+  .review .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+
+  
+  .review table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 133px;
+  }
+  
+  .review table th,
+  td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .review table thead td {
+    font-weight: 600px;
+    background-color: var(--gray); 
+    color: var(--white);
+    font-weight: bolder;
+    background: linear-gradient(to right, #4f3131, #15283e);
+      
+  }
+  
+  .review .recentOrders table tr {
+    color: var(--black1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .review .recentOrders table tr:last-child {
+    border-bottom: none;
+  }
+  
+  .review .recentOrders table tbody tr:hover {
+    background: linear-gradient(to right, #4f3131, #15283e);
+    color: var(--white);
+  }
+  
+  .review .recentOrders table tr td {
+    padding: 10px;
+  }
+  
+  .review .recentOrders table tr td:nth-child(3) {
+    text-align: center;
+  }
+  
+.v button{
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #ffec32;
+    border-radius: 5px;
+}
+/* Nút hành động */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #15283e;
+  background: #ffec32;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Định dạng modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background: linear-gradient(to left, #4f3131, #15283e);
+    margin: 20% auto;
+    padding: 20px;
+    border-color: #f88e62;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-left: 45%;
+  }
+  .modal-content:hover {
+    transform: scale(1.02);
+  }
+  /* =============== Delete modal =========================== */
+#delete-modal .modal-content label {
+    color: #F5F5DC;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #delete-modal .modal-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFC857;
+    background: none;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+  }
+  
+  #delete-modal .modal-content .button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  #delete-modal .modal-content .button-container button:first-child {
+    margin-top: 15px;
+    background-color: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #delete-modal .modal-content .button-container button:last-child {
+    margin-top: 15px;
+    background-color: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #delete-modal .modal-content .button-container button:hover{
+    transform: scale(1.1);
+  }

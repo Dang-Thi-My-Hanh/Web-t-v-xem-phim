@@ -1,0 +1,386 @@
+/*----------------------------------- Content --------------------------------*/
+#section-content-1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 800px;
+    padding-top: 15px;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.account-info-page {
+    max-width: 95%;
+    width: 100%;
+
+    padding: 35px;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.account-info-page h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+.greeting {
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.recent-orders,
+.customer-info {
+    width: 100%;
+    background-color: #f3f4f6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.recent-orders {
+    width: 65%;
+}
+
+.customer-info {
+    width: 90%;
+}
+
+.recent-orders h2,
+.customer-info h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    border: 2px solid #15283e;
+    border-radius: 10px;
+    padding: 10px;
+    background: #104834;
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+
+.customer-info p {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.customer-info p strong {
+    margin-right: 8px;
+    color: #15283e;
+}
+
+.customer-info button {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.customer-info button:hover {
+    background: #104834;
+    color: #ffffff;
+}
+
+/* Đảm bảo layout linh hoạt trên các thiết bị nhỏ hơn */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .recent-orders,
+    .customer-info {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .account-info-page {
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+/* -----------------------Check detail------------------------ */
+/* Style cho Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: auto;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content {
+    background: #104834;
+    color: #ffffff;
+    padding: 25px;
+    width: 60%; 
+    max-width: 555px;
+    margin: 15% auto; 
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modal-content:hover {
+    transform: scale(1.02);
+}
+
+.close-btn {
+    color: #ffffff;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #ffcccc;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f7d774;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* -------------- Form order detail------------ */
+.order-detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.order-detail-table th {
+    background: #891f1f;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.order-detail-table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.order-detail-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.order-detail-table tr:hover {
+    background: rgba(247, 215, 116, 0.2);
+}
+
+.order-info {
+    margin-top: 20px;
+}
+
+.order-info p {
+    margin: 8px 0;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.info-highlight {
+    color: #f7d774;
+    font-weight: bold;
+}
+
+.total-price {
+    color: #f88e62;
+    font-size: 15px;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.badge.success {
+    background: #28a745;
+    color: white;
+}
+
+.icon-product {
+    margin-right: 8px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*------------------------ Form Edit Information -----------------------------------------------*/
+/* Style cho Modal */
+.editInformationContent {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#editInfoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#editInfoForm .mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#editInfoForm label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Placeholder */
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Arial', sans-serif;
+}
+
+
+#editInfoForm input[type="email"],
+[type="tel"],
+[type="text"],
+textarea {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#editInfoForm #address {
+    padding: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.modal-footer {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.modal-footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease, transform 0.2s ease;
+}
+
+.modal-footer .btn-secondary {
+    background: #6c757d;
+    color: white;
+    margin-right: 10px;
+}
+
+.modal-footer .btn-secondary:hover {
+    background: #5a6268;
+    transform: scale(1.05);
+}
+
+.modal-footer .btn-primary {
+    background: linear-gradient(135deg, #ff6b6b, #d43f3f);
+    color: white;
+}
+
+.modal-footer .btn-primary:hover {
+    background: linear-gradient(135deg, #d43f3f, #a93232);
+    transform: scale(1.05);
+}
+
+/*Xóa modal */
+#cancelOrderModal .modal-content {
+    background:linear-gradient(to right, #4f3131, #15283e);
+    color: #ffffff;
+    padding: 25px;
+    width: 31%;
+    max-width: 555px;
+    margin: 15% auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+#cancelOrderModal .titles {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#cancelOrderModal .modal-buttons-dele {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 45%;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+#cancelOrderModal .modal-buttons-dele .confirm-delete{
+    margin-top: 10px;
+    background-color: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+#cancelOrderModal .modal-buttons-dele .close-modal-dele{
+    margin-top: 10px;
+    background-color: #f88e62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#cancelOrderModal .modal-buttons-dele .close-modal-dele  .confirm-delete button:hover {
+    transform: scale(1.1);
+}

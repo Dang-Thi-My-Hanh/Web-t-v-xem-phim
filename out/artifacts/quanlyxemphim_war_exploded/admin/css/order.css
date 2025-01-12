@@ -1,0 +1,312 @@
+/* Tổng thể */
+:root {
+  --blue: #2a2185;
+  --white: #fff;
+  --gray: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+}
+.order {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+
+  grid-gap: 30px;
+
+}
+
+.order .recentOrders {
+  position: relative;
+  display: grid;
+  min-height: 500px;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+
+  margin-left: 30px;
+}
+
+.order .cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+.order table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 133px;
+}
+
+.order table th,
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 15px;
+}
+
+.order table thead td {
+  font-weight: bolder;
+  background-color: var(--gray);
+  color: var(--white);
+  font-weight: bolder;
+  background: linear-gradient(to right, #4f3131, #15283e);
+
+}
+
+.order .recentOrders table tr {
+  color: var(--black1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.order .recentOrders table tr:last-child {
+  border-bottom: none;
+}
+
+.order .recentOrders table tbody tr:hover {
+  background: linear-gradient(to right, #4f3131, #15283e);
+  color: var(--white);
+}
+
+.order .recentOrders table tr td {
+  padding: 10px;
+}
+
+.order .recentOrders table tr td:nth-child(3) {
+  text-align: center;
+}
+
+.v button{
+  border: none;
+  padding: 9px;
+  cursor: pointer;
+  background-color: #ffec32;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.statusText{
+  padding: 2px;
+  border-radius: 5px;
+}
+.update-order{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.update-order button{
+  background-color: #202a3b;
+  color: #f1f1f1;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content {
+  background:linear-gradient(to right, #4f3131, #15283e);
+  color: #ffffff;
+  padding: 25px;
+  width: 100%;
+  max-width: 450px;
+  margin: 9% auto;
+  max-height: 60%;
+  overflow-y: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 40%;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 5px; /* Độ rộng của scrollbar */
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #f7d774; /* Màu thanh cuộn */
+  border-radius: 4px; /* Bo góc */
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: #f88e62; /* Màu khi hover vào thanh cuộn */
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Màu nền của track */
+}
+
+.modal-content:hover {
+  transform: scale(1.02);
+}
+
+.close-modal {
+  color: #ffffff;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-modal:hover {
+  color: #ffcccc;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f7d774;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* -------------- Form order detail------------ */
+.order-detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.order-detail-table th {
+  background: #891f1f;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.order-detail-table td {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.order-detail-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.order-detail-table tr:hover {
+  background: rgba(247, 215, 116, 0.2);
+}
+
+.order-info {
+  margin-top: 20px;
+}
+
+.order-info p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.info-highlight {
+  color: #f7d774;
+  font-weight: bold;
+}
+
+.total-price {
+  color: #f88e62;
+  font-size: 15px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.badge.success {
+  background: #28a745;
+  color: white;
+}
+
+.icon-product {
+  margin-right: 8px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+/* =============== Delete modal =========================== */
+#delete-modal .modal-content label {
+  color: #F5F5DC;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#delete-modal .modal-content h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFC857;
+  background: none;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 10px;
+}
+
+#delete-modal .modal-content .button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+
+#delete-modal .modal-content .button-container button:first-child {
+  margin-top: 15px;
+  background-color: #f88e62;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#delete-modal .modal-content .button-container button:last-child {
+  margin-top: 15px;
+  background-color: #f88e62;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#delete-modal .modal-content .button-container button:hover{
+  transform: scale(1.05);
+}
+
