@@ -5,21 +5,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c184c2-1322-43e1-955c-a576953dcb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/review.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/passwordManagement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/review.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/movies.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/rating.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/reservations.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/AddAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/DeleteAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/ListAllUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/UpdateStatusAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/home/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/AddMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/DeleteMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/EditMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/GetMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/rating/DeleteRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/rating/GetListRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/reservations/ReservationsListsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/TurnPageUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/ResetCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/ResetPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/UpdateInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/VerifyEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/favourite/AddToFavoritesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/favourite/FavoritesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/info_user/ConfirmationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/info_user/UploadAvatarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/movies/GetListMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/movies/GetMovieDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/movies/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/pay/ConfirmPaymentVNPAYController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/pay/VNPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/rating/CreateRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/reservation/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/reservation/SubmitReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/account/AddAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/account/DeleteAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/account/ListAllUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/account/UpdateStatusAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/home/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/AddMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/DeleteMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/EditMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/GetMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/rating/DeleteRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/rating/GetListRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/reservations/ReservationsListsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/TurnPageUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/ResetCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/ResetPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/UpdateInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/VerifyEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/favourite/AddToFavoritesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/favourite/FavoritesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/info_user/ConfirmationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/info_user/UploadAvatarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/movies/GetListMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/movies/GetMovieDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/movies/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/pay/ConfirmPaymentVNPAYController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/pay/VNPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/rating/CreateRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/reservation/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/reservation/SubmitReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/DBProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/AddDeleteUpdateAccountInAdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/GetListAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/InfoUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/LoginDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/LogoutDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/ResetCodeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/ResetPasswordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/SignUpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/UpdateInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/VerifyEmailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/favourite/FavouriteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/home/HomeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/movies/GetMovieDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/movies/MovieDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/rating/RatingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/reservation/ReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/room/RoomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/filter/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/filter/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/PasswordReset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/Reservations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/TimeSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/EmailUtilService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/FavouriteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/RatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/util/VNPAYConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/util/VNPayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/css/order.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/review.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/css/review.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/js/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/passwordManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/js/passwordManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/js/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/review.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/js/review.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/pages/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/pages/movies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/pages/movies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/pages/rating.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/pages/rating.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/pages/reservations.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/pages/reservations.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/pages/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/admin/pages/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/buying-help.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/buying-help.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/check-pay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/check-pay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/confirmation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/confirmation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/informationCustomer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/informationCustomer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/login-signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/login-signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/product-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/product-detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/reservation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/reservation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/css/reset-password.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/css/reset-password.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/comfirmation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/comfirmation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/favourite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/favourite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/informationCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/informationCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/login-signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/login-signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/reset-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/reset-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/slider-products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/slider-products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/js/slider_Image-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/js/slider_Image-home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/buying-help.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/buying-help.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/check-pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/check-pay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/confirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/favourite.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/favourite.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/informationCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/informationCustomer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/login-signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/login-signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/movie-detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/movie-detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/movie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/movie.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/reservation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/reservation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/reset-password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/webapp/users/page/reset-password.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +169,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -43,7 +191,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/LapTrinhWeb/Cineme_Booking/src/main/webapp",
+    "last_opened_file_path": "E:/LapTrinhWeb/Cineme_Booking/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +203,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LapTrinhWeb\Cineme_Booking\src\main\java" />
       <recent name="E:\LapTrinhWeb\Cineme_Booking" />
+      <recent name="E:\LapTrinhWeb\Cineme_Booking\src" />
+      <recent name="E:\LapTrinhWeb\Cineme_Booking\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\LapTrinhWeb\Cineme_Booking" />
@@ -81,7 +232,7 @@
       <workItem from="1736656707663" duration="926000" />
       <workItem from="1736658723084" duration="623000" />
       <workItem from="1736659369666" duration="369000" />
-      <workItem from="1736685465269" duration="1817000" />
+      <workItem from="1736685465269" duration="2361000" />
     </task>
     <servers />
   </component>
