@@ -1,0 +1,243 @@
+#section-content-1 {
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.product-details {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    flex: 1;
+    min-width: 300px;
+
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-product {
+    margin-top: 20px;
+}
+
+.review h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review textarea {
+    width: 80%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.review button {
+    
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.review button:hover {
+    background-color: #001f7f;
+}
+
+.product-info {
+    flex: 2;
+    min-width: 300px;
+    margin-left: 20px;
+}
+
+.product-title {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.product-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.product-info .product-price {
+    font-size: 18px;
+    color: #f31911;
+    font-weight: bold;
+}
+
+.product-options {
+    margin: 15px 0;
+}
+
+.product-options label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.product-options input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+ 
+}
+.product-options label {
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    padding: 10px 20px;
+    background-color: #18293e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #001f7f;
+}
+
+.contact {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.contact strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* -----------------Sản phẩm tương tự---------------------------- */
+#section-content-2 {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe; /* Nền trắng tinh tế */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    height: auto;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#section-content-2:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.similar-pro {
+    border-bottom: 3px solid #0d6efd; /* Đường kẻ nổi bật hơn */
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.similar-pro h3 {
+    font-size: 26px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; /* Chữ in hoa */
+    letter-spacing: 1.2px;
+}
+
+.list-similar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center; /* Sản phẩm căn giữa */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.similar {
+    width: 220px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.similar:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.similar h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #000000;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.similar h3:hover {
+    color: #f31911; 
+    cursor: pointer;
+}
+
+.similar img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.similar img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .list-similar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .similar {
+        width: 95%;
+    }
+
+    .similar img {
+        height: auto;
+    }
+}

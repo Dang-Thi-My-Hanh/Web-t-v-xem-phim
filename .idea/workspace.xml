@@ -1,107 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="quanlyxemphim:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c184c2-1322-43e1-955c-a576953dcb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/DBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/AddDeleteUpdateAccountInAdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/GetListAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/InfoUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/LogoutDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/ResetCodeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/ResetPasswordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/SignUpDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/UpdateInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/Users/VerifyEmailDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/home/HomeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/movies/GetMovieDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/dao/movies/MovieDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/PasswordReset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/model/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/EmailUtilService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/RatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/passwordManagement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/review.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/informationCustomer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/login-signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/product-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/reservation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/css/reset-password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/comfirmation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/favourite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/informationCustomer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/login-signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/movie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/reset-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/slider-products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/js/slider_Image-home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/buying-help.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/check-pay.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/confirmation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/favourite.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/informationCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/login-signup.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/movie-detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/movie.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/reservation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/page/reset-password.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/AddAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/account/AddAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/DeleteAccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/ListAllUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/account/UpdateStatusAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/account/UpdateStatusAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/home/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/AddMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/AddMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/DeleteMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/DeleteMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/EditMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/EditMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/movies/GetMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/admin/movies/GetMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/rating/DeleteRatingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/rating/GetListRatingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/admin/reservations/ReservationsListsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/TurnPageUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/LogoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/ResetCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/ResetCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/ResetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/ResetPasswordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/UpdateInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/UpdateInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/account/VerifyEmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/account/VerifyEmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/favourite/AddToFavoritesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/favourite/FavoritesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/info_user/ConfirmationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/info_user/ConfirmationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/info_user/UploadAvatarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hcmuaf/nlu/edu/vn/quanlyxemphim/controller/user/info_user/UploadAvatarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/movies/GetListMovieController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/movies/GetMovieDetailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/movies/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/pay/ConfirmPaymentVNPAYController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/pay/VNPayController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/rating/CreateRatingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/reservation/ReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quanlyxemphim/controller/user/reservation/SubmitReservationController.java" beforeDir="false" />
+    <list default="true" id="7ad35b2b-89c1-4eec-91d3-a0e6f64c9606" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/buying-help.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/buying-help.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/check-pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/check-pay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/confirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/favourite.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/favourite.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/informationCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/informationCustomer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/login-signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/login-signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/movie-detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/movie-detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/page/reservation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/page/reservation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -111,40 +55,227 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2rVukTi7q7lwOSo50DkN83oflAd" />
+  <component name="ProjectId" id="2rNmyUhHMXvn8nq3kv6NKG8P9UR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.home.jsp.executor": "Run",
+    "JavaScript Debug.reservation.jsp.executor": "Run",
+    "Maven.quanlyxemphim [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Tomcat Server.Tomcat 10.1.31.executor": "Run",
+    "Tomcat Server.Tomcat 10.1.33.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/LapTrinhWeb/Cineme_Booking",
+    "last_opened_file_path": "E:/thi xong/LapTrinhWeb/Cineme_Booking",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.customizations",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.56666666",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\LapTrinhWeb\Cineme_Booking" />
-      <recent name="E:\LapTrinhWeb\Cineme_Booking\src\main\java" />
-      <recent name="E:\LapTrinhWeb\Cineme_Booking\src" />
-      <recent name="E:\LapTrinhWeb\Cineme_Booking\src\main\webapp" />
+      <recent name="C:\Users\ADMIN\quanlyxemphim\src\main\java\hcmuaf\nlu\edu\vn\quanlyxemphim\controller\user\info_user" />
+      <recent name="C:\Users\ADMIN\quanlyxemphim\src\main\resources" />
+      <recent name="C:\Users\ADMIN\quanlyxemphim\src\main\java\hcmuaf\nlu\edu\vn\quanlyxemphim" />
+      <recent name="C:\Users\ADMIN\quanlyxemphim\src\main\webapp" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\LapTrinhWeb\Cineme_Booking" />
-      <recent name="E:\LapTrinhWeb\Cineme_Booking\templates" />
-    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.33">
+    <configuration name="home.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/quanlyxemphim_war_exploded/home.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="reservation.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/quanlyxemphim_war_exploded/users/page/reservation.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="quanlyxemphim:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/quanlyxemphim_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="538d54f4-11c8-4eb6-ad96-f49d8cd091ad" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51763" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e613e99e-3c7e-44f5-ba9a-8969347be6d4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51763" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.reservation.jsp" />
+      <item itemvalue="JavaScript Debug.home.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.33" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.reservation.jsp" />
+        <item itemvalue="JavaScript Debug.home.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -157,15 +288,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4c184c2-1322-43e1-955c-a576953dcb7e" name="Changes" comment="" />
-      <created>1736656706434</created>
+      <changelist id="7ad35b2b-89c1-4eec-91d3-a0e6f64c9606" name="Changes" comment="" />
+      <created>1736408165370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736656706434</updated>
-      <workItem from="1736656707663" duration="926000" />
-      <workItem from="1736658723084" duration="623000" />
-      <workItem from="1736659369666" duration="369000" />
-      <workItem from="1736685465269" duration="3175000" />
+      <updated>1736408165370</updated>
+      <workItem from="1736408166666" duration="21709000" />
+      <workItem from="1736431701246" duration="21919000" />
+      <workItem from="1736503539755" duration="10370000" />
+      <workItem from="1736514818435" duration="12784000" />
+      <workItem from="1736570808602" duration="11952000" />
+      <workItem from="1736589414224" duration="3871000" />
+      <workItem from="1736594482739" duration="1441000" />
+      <workItem from="1736652299798" duration="167000" />
+      <workItem from="1736652639721" duration="318000" />
+      <workItem from="1736750030661" duration="7373000" />
+      <workItem from="1736770869361" duration="3653000" />
+      <workItem from="1736781300020" duration="2440000" />
     </task>
     <servers />
   </component>

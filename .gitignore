@@ -4,10 +4,10 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-../LapTrinhWeb/Cineme_Booking/.idea/modules.xml
-../LapTrinhWeb/Cineme_Booking/.idea/jarRepositories.xml
-../LapTrinhWeb/Cineme_Booking/.idea/compiler.xml
-../LapTrinhWeb/Cineme_Booking/.idea/libraries/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
 *.iws
 *.iml
 *.ipr
@@ -37,4 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 
-../LapTrinhWeb/Cineme_Booking/.idea/
+.idea/
